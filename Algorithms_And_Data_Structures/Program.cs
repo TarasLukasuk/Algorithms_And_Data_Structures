@@ -180,13 +180,6 @@ namespace Algorithms_And_Data_Structures
 
             Console.WriteLine(Environment.NewLine + "Graph Floyd Warshell algorithm" + Environment.NewLine);
 
-            matrix.Add_Vertex(v0);
-            matrix.Add_Vertex(v1);
-            matrix.Add_Vertex(v2);
-            matrix.Add_Vertex(v3);
-            matrix.Add_Vertex(v4);
-            matrix.Add_Vertex(v5);
-
             matrix.Add_Edge(v0, v1, 5);
             matrix.Add_Edge(v0, v3, 6);
             matrix.Add_Edge(v0, v5, 50);
